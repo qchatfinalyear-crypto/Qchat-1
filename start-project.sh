@@ -1,4 +1,5 @@
 #!/bin/bash
+# Linux/Fedora startup script. On Windows, use: .\start-project.ps1
 echo "=================================================="
 echo "🚀 POWERING UP QCHAT WEB2 + WEB3 ARCHITECTURE"
 echo "=================================================="

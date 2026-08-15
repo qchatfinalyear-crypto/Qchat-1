@@ -8,7 +8,14 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "setup:windows": "powershell -ExecutionPolicy Bypass -File ./scripts/setup-windows.ps1",
+    "start:windows": "powershell -ExecutionPolicy Bypass -File ./start-project.ps1"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
   },
   "dependencies": {
     "convex": "^1.40.0",
